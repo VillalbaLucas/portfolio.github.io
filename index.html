@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/aboutMe.css">
+    <link rel="stylesheet" href="./styles/proyects.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <article class="conteiner">
+    <header class="contain">
+        <article id="home"class="content-home">
             <section class="saludo">
-                <p>Hola soy Lucas Villalba</p>
+                <h1>Hola soy Lucas Villalba</h1>
                 <p>Full Stack Java Developer</p>
             </section>
             <section class="foto-perfil">
@@ -23,19 +25,28 @@
         </article>
         <section class="nav">
             <nav>
-
+                <ul><a href="#home">Home</a></ul>
+                <ul><a href="#aboutMe">About me</a></ul>
+                <ul><a href="#proyects">Proyects</a></ul>
+                <ul><a href="#skills">Skills</a></ul>
+                <ul><a href="#contacto">Contact</a></ul>
             </nav>
         </section>
     </header>
     <main>
-        <section class="aboutMe">
-
+        <section id="aboutMe" class="aboutMe contain">
+            <p>Cosas sobre mi, de que soy estudiante de ingenieria en sistemas, soy programador web autodidacta, etc...</p>
         </section>
-        <section class="proyects">
-
-        </section class="skills">
+        <section id="proyects" class="proyects contain">
+            <div class="">
+                <p>Proyectos que tengo para mostrar mis habilidades</p>
+            </div>
+        </section>
+        <section id="skills" class="skills contain">
+            <p>Todo los lenguajes, frameworks y metodologias que tengo aprendidas hasta el momento</p>
+        </section>
     </main>
-    <footer>
+    <footer id="contacto">
 
     </footer>
 </body>
