@@ -12,22 +12,23 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <span class="container border-1 link-download">
+    <header class="container-fluid section">
+        <span class="link-download">
             <a href="">
                 Mi Cv <img class="ico-download"src="./assets/icon/archivo.png" alt="download">
             </a>
         </span>
-        <article id="home" class="content-home">
-            <section class="saludo">
-                <h1>Hola soy Lucas Villalba</h1>
-                <p>Full Stack Java Developer</p>
+        <article id="home" class="d-flex flex-column-reverse justify-content-around flex-md-row content-home">
+            <section class="d-flex flex-column justify-content-center mx-5 text-center saludo">
+                <h1 class="size-titulo">Hola soy Lucas Villalba</h1>
+                <p class="size-titulo">Full Stack Java Developer</p>
             </section>
-            <section class="foto-perfil">
-                <img src="./assets/img/pochita.jpg" alt="foto de perfil">
+
+            <section class="d-flex justify-content-center align-items-center mx-auto foto-perfil">
+                <img class="img-fluid" src="./assets/img/pochita.jpg" alt="foto de perfil">
             </section>
         </article>
-        <nav>
+        <nav class="d-flex flex-column justify-content-center flex-sm-row">
             <ul><a href="#home">Home</a></ul>
             <ul><a href="#aboutMe">About me</a></ul>
             <ul><a href="#proyects">Proyects</a></ul>
@@ -36,20 +37,20 @@
         </nav>
     </header>
     <main>
-        <section id="aboutMe" class="aboutMe contain">
+        <section id="aboutMe" class="aboutMe section">
             <div class="content-me">27230769
-                <p>Mi nombre es Lucas Villalba, estudiante de ingenieria en sistemas de informacion y también desarrollador web autodidacta.
+                <p class="size-contenido">Mi nombre es Lucas Villalba, estudiante de ingenieria en sistemas de informacion y también desarrollador web autodidacta.
                     Busco desarrollarme profesionalmente en este mundo, por ello aprendo y practico todo lo que pueda dia a dia.
                 </p>
             </div>
         </section>
-        <section id="proyects" class="proyects contain">
+        <section id="proyects" class="proyects section">
             <div class="">
-                <p>Proyectos que tengo para mostrar mis habilidades</p>
+                <p class="size-contenido">Proyectos que tengo para mostrar mis habilidades</p>
             </div>
         </section>
-        <section id="skills" class="skills contain">
-            <p>Todo los lenguajes, frameworks y metodologias que tengo aprendidas hasta el momento</p>
+        <section id="skills" class="skills section">
+            <p class="size-contenido">Todo los lenguajes, frameworks y metodologias que tengo aprendidas hasta el momento</p>
         </section>
     </main>
     <footer id="contacto" class="container-fluid bg-dark">
