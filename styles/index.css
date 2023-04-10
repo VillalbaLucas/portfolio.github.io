@@ -8,6 +8,19 @@
     font-family: 'Sora', sans-serif;
 }
 
+li {
+    list-style-type: none;
+}
+
+.cv-color {
+    background-color: #08c538;
+}
+
+.ico-download {
+    height: 20px;
+    width: 20px;
+}
+
 .section {
     height: 100vh;
     width: auto;
@@ -17,23 +30,10 @@
     font-size: 5rem;
 }
 
-.size-contenido{
+.size-contenido {
     font-size: 3rem;
 }
 
-span>a {
-    position: absolute;
-    background-color: rgb(8, 197, 56);
-    color: black;
-    padding: 5px 10px;
-    border-radius: 50px;
-    text-decoration: none;
-}
-
-.ico-download {
-    height: 20px;
-    width: 20px;
-}
 
 .content-home {
     width: 100%;
@@ -90,15 +90,16 @@ nav>ul>a {
     height: 100vh;
     background-color: aquamarine;
 }
+
 /* Responsive */
 @media screen and (max-width: 768px) {
-    .size-titulo{
+    .size-titulo {
         font-size: 3rem;
     }
-    .foto-perfil > img{
-        height:200px;
+
+    .foto-perfil>img {
+        height: 200px;
         width: 200px;
     }
 
-} 
-    
+}
