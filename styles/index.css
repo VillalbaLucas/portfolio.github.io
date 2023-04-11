@@ -34,12 +34,9 @@ li {
     font-size: 3rem;
 }
 
-
-.content-home {
-    width: 100%;
-    height: 90%;
+.content-home{
+    margin: auto 0px;
 }
-
 .saludo>h1,
 p {
     font-family: 'Sora', sans-serif;
@@ -47,43 +44,29 @@ p {
 
 .foto-perfil>img {
     object-fit: cover;
-    width: 400px;
     height: 400px;
+    min-width: 400px;
     border-radius: 50%;
 }
 
-/* nav bar */
-nav {
-    position: relative;
-    right: 0px;
-    width: 100%;
-    height: 5%;
-    gap: 3rem;
+.navbar-nav > li {
+    padding: 5px 20px;
 }
 
-nav>ul>a {
-    font-size: 1.4rem;
-    text-decoration: none;
-}
+/* nav bar */
 
 /* About me */
 .aboutMe {
-    background-color: violet;
+    background-color: #719d99;
+}
+
+.aboutMe > div {
+    background-color: #45767c;
 }
 
 .aboutMe>div>p {
     font-size: 2rem;
 }
-
-.content-me {
-    position: relative;
-    top: 10%;
-    width: 40%;
-    height: 30%;
-    border: 1px solid white;
-    border-radius: 15px;
-}
-
 
 /* Proyects */
 .proyects {
@@ -97,9 +80,13 @@ nav>ul>a {
         font-size: 3rem;
     }
 
+    .size-contenido {
+        font-size: 1rem;
+    }
+
     .foto-perfil>img {
         height: 200px;
-        width: 200px;
+        min-width: 200px;
     }
 
 }
